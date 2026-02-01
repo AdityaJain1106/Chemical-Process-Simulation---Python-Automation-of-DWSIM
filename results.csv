@@ -1,0 +1,456 @@
+case,success,error,pfr_volume,pfr_temp,conversion,A_out,B_out,outlet_temp,stages,reflux,distillate_A,bottoms_B,condenser_duty,reboiler_duty
+PFR,False,"The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167","Traceback (most recent call last):
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 23, in safe_run
+    return fn(**params)
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 52, in run_pfr_case
+    sim = auto.LoadFlowsheet(TEMPLATE)
+System.InvalidOperationException: The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167
+",,,,,,,,,,,,
+PFR,False,"The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167","Traceback (most recent call last):
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 23, in safe_run
+    return fn(**params)
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 52, in run_pfr_case
+    sim = auto.LoadFlowsheet(TEMPLATE)
+System.InvalidOperationException: The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167
+",,,,,,,,,,,,
+PFR,False,"The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167","Traceback (most recent call last):
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 23, in safe_run
+    return fn(**params)
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 52, in run_pfr_case
+    sim = auto.LoadFlowsheet(TEMPLATE)
+System.InvalidOperationException: The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167
+",,,,,,,,,,,,
+PFR,False,"The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167","Traceback (most recent call last):
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 23, in safe_run
+    return fn(**params)
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 52, in run_pfr_case
+    sim = auto.LoadFlowsheet(TEMPLATE)
+System.InvalidOperationException: The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167
+",,,,,,,,,,,,
+PFR,False,"The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167","Traceback (most recent call last):
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 23, in safe_run
+    return fn(**params)
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 52, in run_pfr_case
+    sim = auto.LoadFlowsheet(TEMPLATE)
+System.InvalidOperationException: The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167
+",,,,,,,,,,,,
+PFR,False,"The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167","Traceback (most recent call last):
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 23, in safe_run
+    return fn(**params)
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 52, in run_pfr_case
+    sim = auto.LoadFlowsheet(TEMPLATE)
+System.InvalidOperationException: The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167
+",,,,,,,,,,,,
+PFR,False,"The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167","Traceback (most recent call last):
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 23, in safe_run
+    return fn(**params)
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 52, in run_pfr_case
+    sim = auto.LoadFlowsheet(TEMPLATE)
+System.InvalidOperationException: The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167
+",,,,,,,,,,,,
+PFR,False,"The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167","Traceback (most recent call last):
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 23, in safe_run
+    return fn(**params)
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 52, in run_pfr_case
+    sim = auto.LoadFlowsheet(TEMPLATE)
+System.InvalidOperationException: The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167
+",,,,,,,,,,,,
+PFR,False,"The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167","Traceback (most recent call last):
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 23, in safe_run
+    return fn(**params)
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 52, in run_pfr_case
+    sim = auto.LoadFlowsheet(TEMPLATE)
+System.InvalidOperationException: The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167
+",,,,,,,,,,,,
+COLUMN,False,"The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167","Traceback (most recent call last):
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 23, in safe_run
+    return fn(**params)
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 94, in run_column_case
+    sim = auto.LoadFlowsheet(TEMPLATE)
+System.InvalidOperationException: The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167
+",,,,,,,,,,,,
+COLUMN,False,"The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167","Traceback (most recent call last):
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 23, in safe_run
+    return fn(**params)
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 94, in run_column_case
+    sim = auto.LoadFlowsheet(TEMPLATE)
+System.InvalidOperationException: The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167
+",,,,,,,,,,,,
+COLUMN,False,"The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167","Traceback (most recent call last):
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 23, in safe_run
+    return fn(**params)
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 94, in run_column_case
+    sim = auto.LoadFlowsheet(TEMPLATE)
+System.InvalidOperationException: The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167
+",,,,,,,,,,,,
+COLUMN,False,"The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167","Traceback (most recent call last):
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 23, in safe_run
+    return fn(**params)
+  File ""D:\DWSIM_Screening_Task_2\run_screening.py"", line 94, in run_column_case
+    sim = auto.LoadFlowsheet(TEMPLATE)
+System.InvalidOperationException: The calling thread must be STA, because many UI components require this.
+   at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at Eto.Wpf.Forms.WpfPanel`3..ctor()
+   at Eto.Wpf.Forms.FormHandler..ctor()
+   at Eto.Wpf.Platform.<>c.<AddTo>b__10_96()
+   at Eto.Widget..ctor()
+   at Eto.Forms.Control..ctor()
+   at Eto.Forms.Window..ctor()
+   at DWSIM.UI.Forms.Flowsheet..ctor() in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.UI.Desktop.Forms\Forms\Flowsheet\Flowsheet.cs:line 13
+   at DWSIM.Automation.Automation2.LoadFlowsheet(String filepath) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.Automation\Automation.cs:line 167
+",,,,,,,,,,,,

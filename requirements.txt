@@ -1,0 +1,4 @@
+pythonnet
+numpy
+pandas
+matplotlib     # optional for plots
